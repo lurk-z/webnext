@@ -11,6 +11,13 @@ npm run dev
 
 Open `http://localhost:3000`.
 
+On Windows PowerShell, if `npm` is blocked by the script execution policy, use:
+
+```bash
+npm.cmd install
+npm.cmd run dev
+```
+
 ## Test forms
 
 - Newsletter submissions are saved to `data/subscribers.json`.
